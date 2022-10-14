@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vivian Liu">
+    <meta name="description" content="Vivian's Personal Website">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vivian's Personal Website</title>
+</head>
+<body>
+
+    <h1>Contact</h1>
+    <p>Below you can find my contact information!</p>
+
+    <h3>LinkedIn</h3>
+    <a target="" href="https://www.linkedin.com/in/vivianzliu/">Click Here!</a>
+
+    <h3>Email</h3>
+    <p>vivizliu@berkeley.edu</p>
+    
+
+    <button onclick="alert('Thank you for checking out my page!')">Small message to you!</button> 
+    <script>
+       let btn = document.createElement("button");
+
+        btn.innerHTML = "Subscribe";
+
+        btn.onclick = function () {
+
+        alert("You have been subscribed!");
+
+        };
+
+        document.body.appendChild(btn);
+    </script>
+
+
+    <p></p>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <br><br>
+        <button onclick="alert('Thanks for submitting!')"><input type="submit" value="Submit"></button>
+    </form>
+
+    
+</body>
+</html>

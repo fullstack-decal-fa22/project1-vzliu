@@ -1,0 +1,89 @@
+* {
+    background-color: lightblue;
+}
+
+
+.about {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    text-align: center;
+}
+
+
+.caption {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    text-align: center;
+    align-items: center;
+
+}
+
+.vivian-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#introduction {
+    background-color: aqua;
+}
+
+.white-text {
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .tab1 {
+    text-align: center;
+  }
+
+  .tab1:hover {
+    color: red;
+    font-size: large;
+  }
+
+  .tab2 {
+    text-align: center;
+  }
+
+  .tab2:hover {
+    color: red;
+    font-size: large;
+  }
+
+  .memes {
+    text-align: center;
+  }
